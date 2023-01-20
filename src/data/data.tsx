@@ -73,14 +73,9 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+      近年、サイバー攻撃による被害が増加する一方で、セキュリティ人材が不足しています。<br></br>
+      サイバー攻撃に問題意識を持つ学生がセキュリティに関する技術に興味を持ち、<br></br>
+      これを学び合う学生同士の場を求めて、RiSTが設立されました。
       </p>
     </>
   ),
