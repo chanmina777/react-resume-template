@@ -1,6 +1,5 @@
 import {
   AcademicCapIcon,
-  CalendarIcon,
   DownloadIcon,
   FlagIcon,
   MapIcon,
@@ -70,15 +69,9 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-<<<<<<< HEAD
-      近年、サイバー攻撃による被害が増加する一方で、セキュリティ人材が不足しています。<br></br>
-      サイバー攻撃に問題意識を持つ学生がセキュリティに関する技術に興味を持ち、<br></br>
-      これを学び合う学生同士の場を求めて、RiSTが設立されました。
-=======
         近年、サイバー攻撃による被害が増加する一方で、セキュリティ人材が不足しています。<br></br>
         サイバー攻撃に問題意識を持つ学生がセキュリティに関する技術に興味を持ち、<br></br>
         これを学び合う学生同士の場を求めて、<strong className="text-stone-100">RiST</strong>が設立されました。
->>>>>>> refs/remotes/origin/main
       </p>
     </>
   ),
