@@ -9,9 +9,6 @@ import {
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -73,9 +70,15 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+<<<<<<< HEAD
       近年、サイバー攻撃による被害が増加する一方で、セキュリティ人材が不足しています。<br></br>
       サイバー攻撃に問題意識を持つ学生がセキュリティに関する技術に興味を持ち、<br></br>
       これを学び合う学生同士の場を求めて、RiSTが設立されました。
+=======
+        近年、サイバー攻撃による被害が増加する一方で、セキュリティ人材が不足しています。<br></br>
+        サイバー攻撃に問題意識を持つ学生がセキュリティに関する技術に興味を持ち、<br></br>
+        これを学び合う学生同士の場を求めて、<strong className="text-stone-100">RiST</strong>が設立されました。
+>>>>>>> refs/remotes/origin/main
       </p>
     </>
   ),
@@ -99,15 +102,12 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `U`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
+    {label: 'Location', text: '立命館大学　びわこ・くさつキャンパス　クリエーションコア インキュベーション室1', Icon: MapIcon},
+    {label: 'Nationality', text: '日本 Japan', Icon: FlagIcon},
+    {label: 'Interests', text: 'サイバー攻撃, セキュリティ', Icon: SparklesIcon},
+    {label: 'Study', text: '立命館大学', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
   ],
 };
@@ -330,28 +330,23 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  headerText: 'お問い合わせ',
+  description: '入部希望、活動への見学または質問等がある方は以下のメールアドレスかTwitterアカウントにご連絡ください。',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'rits.sec@gmail.com',
+      href: 'mailto:rits.sec@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '立命館大学　びわこ・くさつキャンパス　クリエーションコア インキュベーション室1',
+      href: 'https://goo.gl/maps/rtUZbRNzWw7ckR9PA',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'RiSec',
+      href: 'https://github.com/RiSec',
     },
   ],
 };
@@ -360,9 +355,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/RiSec'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/realRiST'},
 ];
